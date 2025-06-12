@@ -5,7 +5,7 @@ import openai
 import os
 from jinja2 import Template
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
